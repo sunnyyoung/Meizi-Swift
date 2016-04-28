@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (3.3.1)
+  - BTNavigationDropdownMenu (0.3)
+  - Ji (1.2.0):
+    - Ji/Ji (= 1.2.0)
+  - Ji/Ji (1.2.0):
+    - Ji/Ji-libxml
+  - Ji/Ji-libxml (1.2.0)
+  - Kingfisher (2.3.1)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - PKHUD (3.1.0)
+  - SKPhotoBrowser (1.8.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - BTNavigationDropdownMenu
+  - Ji
+  - Kingfisher
+  - MJExtension
+  - MJRefresh
+  - PKHUD
+  - SKPhotoBrowser
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  BTNavigationDropdownMenu: c36d20785253699046fdd295698c24b1d1c18f53
+  Ji: ddebb22f9ac445db6e884b66f78ea74fb135fdb7
+  Kingfisher: 6d3fbada4829cbc7b89e883e8218c28afeb64e42
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  PKHUD: 4167eccdb1b3a892fd80ce2b51cb6ba412a889ab
+  SKPhotoBrowser: 630d52f85803cae81ee04aab33ca6c4c2a41d609
+
+COCOAPODS: 0.39.0
