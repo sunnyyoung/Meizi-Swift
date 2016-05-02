@@ -10,7 +10,7 @@ Swift版: [Meizi-Swift](https://github.com/Sunnyyoung/Meizi-Swift)
 
 图片来源:
 
-- http://www.doubanmeinv.com
+- http://www.dbmeinv.com
 
 ##Screen Shot
 ![](https://raw.githubusercontent.com/Sunnyyoung/Meizi-Swift/master/ScreenShot/ScreenShot.png)
