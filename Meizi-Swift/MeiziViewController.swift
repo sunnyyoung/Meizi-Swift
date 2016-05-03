@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import BTNavigationDropdownMenu
 import SKPhotoBrowser
 import Alamofire
 import Ji
@@ -110,8 +109,7 @@ class MeiziViewController: UICollectionViewController {
             let navigationItem = super.navigationItem
             if navigationItem.titleView == nil {
                 let items = ["全部", "大胸", "翘臀", "黑丝", "美腿", "清新", "杂烩"]
-                let menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, title: items.first!, items: items)
-                menuView.cellBackgroundColor = UIColor.lightGrayColor()
+                let menuView = MeiziDropdownMenu(navigationController: self.navigationController, title: items.first!, items: items)
                 menuView.didSelectItemAtIndexHandler = {[weak self] (indexPath: Int) -> () in
                     switch indexPath {
                     case 0:

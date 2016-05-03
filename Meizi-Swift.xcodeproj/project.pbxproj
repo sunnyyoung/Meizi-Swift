@@ -17,6 +17,7 @@
 		7DAB6A8C1CCF3FE90017B26C /* Meizi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB6A8B1CCF3FE90017B26C /* Meizi.swift */; };
 		7DC284751CCF5E950037E733 /* MeiziRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC284741CCF5E950037E733 /* MeiziRefreshHeader.swift */; };
 		7DC284771CCF63B10037E733 /* MeiziRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC284761CCF63B10037E733 /* MeiziRefreshFooter.swift */; };
+		7DDEF5D01CD8A6F900114CD7 /* MeiziDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEF5CF1CD8A6F900114CD7 /* MeiziDropdownMenu.swift */; };
 		E3FB4B301CD239EC00639A53 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB4B2F1CD239EC00639A53 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		7DAB6A8B1CCF3FE90017B26C /* Meizi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meizi.swift; sourceTree = "<group>"; };
 		7DC284741CCF5E950037E733 /* MeiziRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeiziRefreshHeader.swift; sourceTree = "<group>"; };
 		7DC284761CCF63B10037E733 /* MeiziRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeiziRefreshFooter.swift; sourceTree = "<group>"; };
+		7DDEF5CF1CD8A6F900114CD7 /* MeiziDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeiziDropdownMenu.swift; sourceTree = "<group>"; };
 		CA89164FA119A77326B69123 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FB4B2F1CD239EC00639A53 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		E55CA85FF5E5DC6DC7F7C268 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7DAB6A881CCF3FD00017B26C /* MeiziCell.swift */,
+				7DDEF5CF1CD8A6F900114CD7 /* MeiziDropdownMenu.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -212,7 +215,6 @@
 				TargetAttributes = {
 					7DAB6A681CCF3E210017B26C = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = JZ9DN6B8HZ;
 					};
 				};
 			};
@@ -302,6 +304,7 @@
 			files = (
 				7DAB6A8C1CCF3FE90017B26C /* Meizi.swift in Sources */,
 				7DAB6A891CCF3FD00017B26C /* MeiziCell.swift in Sources */,
+				7DDEF5D01CD8A6F900114CD7 /* MeiziDropdownMenu.swift in Sources */,
 				7DC284771CCF63B10037E733 /* MeiziRefreshFooter.swift in Sources */,
 				7DC284751CCF5E950037E733 /* MeiziRefreshHeader.swift in Sources */,
 				7DAB6A6D1CCF3E210017B26C /* AppDelegate.swift in Sources */,
