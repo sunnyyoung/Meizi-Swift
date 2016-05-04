@@ -75,7 +75,8 @@ class MeiziViewController: UICollectionViewController {
         self.meiziArray?.removeAll()
         Alamofire.request(.GET, String(format: "http://www.dbmeinv.com/dbgroup/show.htm?cid=%@&pager_offset=%@", String(type.rawValue), String(1))).responseString { (response) in
             let jiDocument = Ji(htmlString: response.result.value!)
-            let liElementArray = jiDocument?.xPath("//*[@id=\"main\"]/div[2]/div[3]/ul/li")
+            
+            let liElementArray = jiDocument?.xPath("//*[@id=\"main\"]/div[2]/div[2]/ul/li")
             for liElement in liElementArray! {
                 let elementDocument = Ji(htmlString: liElement.rawContent!)
                 let imgElement = elementDocument?.xPath("//div/div[1]/a/img")?.first
@@ -91,7 +92,7 @@ class MeiziViewController: UICollectionViewController {
     func loadMoreMeizi() -> Void {
         Alamofire.request(.GET, String(format: "http://www.dbmeinv.com/dbgroup/show.htm?cid=%@&pager_offset=%@", String(type.rawValue), String(page+1))).responseString { (response) in
             let jiDocument = Ji(htmlString: response.result.value!)
-            let liElementArray = jiDocument?.xPath("//*[@id=\"main\"]/div[2]/div[3]/ul/li")
+            let liElementArray = jiDocument?.xPath("//*[@id=\"main\"]/div[2]/div[2]/ul/li")
             for liElement in liElementArray! {
                 let elementDocument = Ji(htmlString: liElement.rawContent!)
                 let imgElement = elementDocument?.xPath("//div/div[1]/a/img")?.first
