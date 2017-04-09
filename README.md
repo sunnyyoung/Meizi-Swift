@@ -1,4 +1,4 @@
-#Meizi-Swift
+# Meizi-Swift
 
 豆瓣妹子图iOS客户端
 
@@ -6,16 +6,16 @@ Objective-C版: [Meizi](https://github.com/Sunnyyoung/Meizi)
 
 Swift版: [Meizi-Swift](https://github.com/Sunnyyoung/Meizi-Swift)
 
-##Discription
+## Discription
 
 图片来源:
 
 - http://www.dbmeinv.com
 
-##Screen Shot
+## Screen Shot
 ![](https://raw.githubusercontent.com/Sunnyyoung/Meizi-Swift/master/ScreenShot/ScreenShot.png)
 
-##Dependency
+## Dependency
 
 - [Alamofire](https://github.com/Alamofire/Alamofire)
 - [Ji](https://github.com/honghaoz/Ji)
@@ -27,7 +27,7 @@ Swift版: [Meizi-Swift](https://github.com/Sunnyyoung/Meizi-Swift)
 - [PKHUD](https://github.com/pkluz/PKHUD)
 
 
-##Platform
+## Platform
 
 iMac 5K:
 
@@ -39,13 +39,13 @@ Xcode:
 - SDK: iOS SDK 9.3
 - Deployment Taget: 8.0
 
-##Build
+## Build
 
 ```bash
 cd Meizi-Swift
 pod install
 ```
 
-##License
+## License
 
 The [MIT License](LICENSE).
